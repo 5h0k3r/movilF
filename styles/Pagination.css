@@ -1,0 +1,9 @@
+.pagination-seccion-opinion{
+    margin-top: 1.5rem !important;
+    margin-bottom: 1.5rem !important;
+}
+
+.pagination-seccion-opinion ul li{
+    margin-left: 1rem;
+    margin-right: .5rem;
+}

@@ -1,0 +1,51 @@
+.blog .nota-wrap > a > h2 {
+    width: 100%;
+    font-size: 1.4rem;
+    padding-bottom: 1.5rem;
+    max-height: 5.5rem;
+    overflow: hidden;
+    text-align: center;
+    text-shadow: 1px 0 3px rgb(0 0 0 / 80%), 0 1px 3px rgb(0 0 0 / 80%), 0px -1px 3px rgb(0 0 0 / 80%), -1px 0px 3px rgb(0 0 0 / 80%) !important;
+    font-family: 'Work Sans', sans-serif !important;
+    /*bottom: -83px; */
+    bottom: calc(5rem - 163px);
+}
+#blogC {
+    margin: auto;
+}
+.blog-car-container .control button {
+    font-size: 15px;
+}
+.blog-car-container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 30px;
+}
+.blog .note {
+    padding-left: 0;
+    padding-right: 0;
+}
+.note .nota-wrap {
+    position: relative;
+    width: 100%;
+    height: 13rem;
+}
+.nota-wrap a {
+    color: black;
+    text-decoration: none;
+}
+.note img {
+    width: 100%;
+    position: relative;
+}
+
+.nota-wrap h2 {
+    font-size: 1.1vw;
+    transform: translateY(-100%);
+    margin: 0;
+    padding: .3em;
+    position: absolute;
+    color: #ffffff;
+    /*font-weight: bold;*/
+    font-family: robotoMedium;
+}

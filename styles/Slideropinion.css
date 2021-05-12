@@ -1,0 +1,84 @@
+.opinion-el {
+    position: relative;
+    width: 100%;
+}
+
+.opinion-seccion {
+    background: #c4d7f0;
+    margin-bottom: 2rem;
+}
+.opinion-el .rostro {
+    display: inline-block;
+    margin: 0;
+    width: 95px;
+}
+.rotro-img {
+    height: 95px;
+    width: 95px;
+    overflow: hidden;
+    margin-top: 5px;
+    border: solid 2px #23375b;
+    border-radius: 6px;
+}
+.opinion-el .rostro img {
+    object-fit: contain;
+    width: 100%;
+}
+.opinion-el .cwrap {
+    display: inline-block;
+    margin: 0;
+    position: absolute;
+    width: calc( 100% - 75px);
+    padding-right: 3rem;
+    padding-left: 2rem;
+}
+.opinion-el .cwrap .title {
+    color: #23375b;
+    /*font-weight: bold;*/
+    line-height: 1.5rem;
+    border-bottom: solid 2px red;
+    font-size: 1.1rem;
+    max-height: 6rem;
+    height: 4rem;
+    overflow: hidden;
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif !important;
+}
+.opinion-el .cwrap .title a{
+    color: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    font-size: inherit;
+    max-height: inherit;
+    height: inherit;
+    overflow: hidden;
+    height: 100%;
+}
+.cwrap > div {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+.opinion-el .cwrap .autor {
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 1.3rem;
+    text-align: center;
+    height: 4.5rem;
+    min-height: 4.5rem;
+    display: inline-table;
+    width: 100%;
+}
+.opinion-el .cwrap .autor p {
+    min-width: min-content;
+    margin: 0;
+    color: white;
+    background: #23375b;
+    border-radius: 5px;
+    max-height: 3rem;
+    font-family: 'Work Sans', sans-serif !important;
+    display: inline-block;
+    padding: 2px 6px 2px 6px;
+    max-height: 1.7rem;
+    font-size: 1rem;
+    overflow: hidden;
+}

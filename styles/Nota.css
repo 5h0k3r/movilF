@@ -1,0 +1,134 @@
+.relativas{
+    z-index: 1;
+    display: block;
+    position: relative;
+}
+.slick-prev {
+    left: 0 !important;
+    z-index: 1;
+}
+.slick-next {
+    right: 0 !important;
+}
+.separador{
+    display: block;
+
+}
+.nota-seccion{
+    font-size: 1rem;
+    color: #23375a;
+    font-style: normal;
+    font-weight: 700;
+    font-family: 'Work Sans', sans-serif;
+}
+.nota-title h1{
+    font-size: 2rem !important;
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+    width: 100% !important;
+}
+.nota-sumario{
+    font-size: 1.1rem;
+    color: #737373;
+    font-style: normal;
+    margin: 5px 0;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bolder;
+}
+.nota-autor{
+    font-size: 1rem;
+    color: #737373;
+    font-family: 'Work Sans', sans-serif;
+    font-style: italic;
+}
+.txtview{
+    width: 100% !important;
+    font-size: 1.25rem;
+    font-family: 'Work Sans', sans-serif !important;
+}
+/*CSS Notas RELATIVAS de RELACION no de RELATIVIDAD ya te la knows*/
+.relatives.container {
+    /*margin: 0;*/
+    padding: 0;
+}
+.r-head{
+  padding: 4px;
+  background-color: #23375a;
+  color: white;
+  font-weight:bold;
+  font-family: 'Work Sans', sans-serif;
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.r-el{
+  background-color: #939ca5;
+
+}
+.r-el a{
+  text-decoration: none;
+}
+.r-image img{
+  width: 100%;
+  padding: 12px;
+  padding-bottom: 3px;
+
+}
+
+.r-title{
+  color: white;
+  text-align: left;
+  padding-left: 14px;
+  padding-right: 14px;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.7rem;
+  font-weight: bold;
+}
+
+.r-space{
+  margin-top: 10px;
+  background-color: white;
+  height: 2px;
+  width:100%;
+  text-align: center;
+}
+.entretenimiento .nota-seccion{
+  color: red;
+  font-weight: bold;
+}
+.note-body img{
+  width: 100%!important;
+  height: auto !important;
+}
+
+.note-body iframe{
+    width: 100%!important;
+}
+/*TAGS*/
+.tags-list {
+    text-align: center;
+    line-height: 2.5rem;
+    /*word-wrap: break-word;*/
+}
+.tags-list a {
+    background: #12172b;
+    color: white;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    margin: .2rem;
+    font-family: roboto;
+    border-radius: 14px;
+    text-decoration: none;
+    /*white-space: nowrap;*/
+    word-break: break-all;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.en-protada{
+  border-radius: 15px;
+  font-family: 'Work Sans', sans-serif;
+  background-color: #23375a;
+}

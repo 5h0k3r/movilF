@@ -1,0 +1,112 @@
+.semblanza {
+    background-color: #c4d5ec;
+    margin-top: 5px;
+    height: 110px;
+    overflow: auto;
+    padding: 10px 5px 0px 10px;
+}
+.note-sumary-cont{
+    background-color: #f2f2f2;
+}
+.social-media.row {
+    margin: 0 !important;
+}
+.face {
+    cursor: pointer;
+    color: white;
+    background-color: #3b5998;
+    text-align: center;
+    border-radius: 0%;
+    padding: 4px;
+    float: left;
+}
+.social-element i {
+    font-size: 1.7rem;
+}
+.icon-facebook-1:before {
+    content: '\f09a';
+}
+.twit {
+    cursor: pointer;
+    color: white;
+    background-color: #00ACEE;
+    text-align: center;
+    border-radius: 0%;
+    padding: 4px;
+    float: left;
+}
+.icon-twitter:before {
+    content: '\f099';
+}
+.whats {
+    cursor: pointer;
+    color: white;
+    background-color: #25d366;
+    text-align: center;
+    border-radius: 0%;
+    padding: 4px;
+    float: left;
+}
+.icon-whatsapp:before {
+    content: '\f232';
+}
+.tele {
+    cursor: pointer;
+    color: white;
+    background-color: #0088cc;
+    text-align: center;
+    border-radius: 0%;
+    padding: 4px;
+    float: left;
+}
+.icon-telegram:before {
+    content: '\f2c6';
+}
+.social-media {
+    position: fixed;
+    bottom: -8px;
+    /* padding: 0; */
+    /* margin: 0; */
+    left: 0;
+    z-index: 2;
+}
+.note-misma-pluma-cont{
+	background-color: #c4d5ec;
+	border: 1px solid #000;
+    width: 100%;
+    font-family: 'Palanquin', sans-serif !important;
+}
+.note-misma-pluma h3{
+	border-bottom: 2px solid #000;
+	font-weight: bold;
+	font-style: italic;
+}
+.pluma-list {
+    float: left;
+    position: relative;
+    padding: 0;
+    margin: 0 auto;
+    background-color: #c4d5ec;
+    border: 1px solid #000;
+    width: 100%;
+}
+.itm-pluma{
+    list-style:none;
+    float:left;
+    position:relative;
+    border:none;
+    width:100%;
+    padding-left: 10px;
+    font-family: 'Palanquin', sans-serif !important;
+}
+.itm-pluma a{
+    float:left;
+    position:relative;
+    text-decoration:none;
+    color:inherit;
+    display:inline-block;
+    border:none;
+    width:100%;
+    font-weight: bold;
+}
+.itm-pluma p{font-size: 15px;}

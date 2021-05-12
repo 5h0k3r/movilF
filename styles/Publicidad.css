@@ -1,0 +1,13 @@
+.content-publicidad{
+    padding: 10px 0 !important;
+    border-top: 1px solid #e4e4e4 !important;
+    border-bottom: 1px solid #e4e4e4 !important;
+    margin: 15px !important;
+    text-align: center !important;
+    place-items: center !important;
+}
+.content-publicidad-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    position: relative;
+}
